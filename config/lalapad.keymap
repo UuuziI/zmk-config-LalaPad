@@ -175,24 +175,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        MB1 {
-            bindings = <&mkp MB1>;
-            key-positions = <20 21>;
-        };
-
-        MB2 {
-            bindings = <&mkp MB2>;
-            key-positions = <21 22>;
-        };
-
-        MB3 {
-            bindings = <&mkp MB3>;
-            key-positions = <21 22 20>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
