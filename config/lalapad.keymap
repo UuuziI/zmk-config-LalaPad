@@ -175,7 +175,24 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        migi {
+            bindings = <&mkp LCLK>;
+            key-positions = <20 21>;
+        };
+
+        mmi {
+            bindings = <&mkp RCLK>;
+            key-positions = <21 22>;
+        };
+
+        naka {
+            bindings = <&mkp MCLK>;
+            key-positions = <20 21 22>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
