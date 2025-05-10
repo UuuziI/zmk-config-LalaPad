@@ -226,11 +226,11 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp LA(F4)           &trans              &trans    &kp PAGE_UP    &trans   &trans  &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LG(LEFT_ARROW)   &kp LG(UP_ARROW)    &kp HOME  &kp PAGE_DOWN  &kp END  &trans  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp LG(RIGHT_ARROW)  &kp LG(DOWN_ARROW)  &trans    &trans         &trans   &trans  &trans
-&trans  &trans   &trans  &trans  &trans  &trans               &trans              &trans    &trans         &trans   &trans  &trans
-                 &trans  &trans  &trans  &trans               &trans              &trans    &trans         &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp LA(F4)           &trans              &trans      &kp PAGE_UP    &trans   &trans  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LG(LEFT_ARROW)   &kp LG(UP_ARROW)    &kp HOME    &kp PAGE_DOWN  &kp END  &trans  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp LG(RIGHT_ARROW)  &kp LG(DOWN_ARROW)  &trans      &trans         &trans   &trans  &trans
+&trans  &trans   &trans  &trans  &trans  &trans               &trans              &kp DELETE  &trans         &trans   &trans  &trans
+                 &trans  &trans  &trans  &trans               &trans              &trans      &trans         &trans
             >;
         };
 
