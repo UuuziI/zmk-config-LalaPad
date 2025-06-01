@@ -180,17 +180,17 @@
 
         migi {
             bindings = <&mkp LCLK>;
-            key-positions = <20 19>;
+            key-positions = <20 21>;
         };
 
         mmi {
             bindings = <&mkp RCLK>;
-            key-positions = <21 20>;
+            key-positions = <21 22>;
         };
 
         naka {
             bindings = <&mkp MCLK>;
-            key-positions = <20 21 19>;
+            key-positions = <20 21 22>;
         };
     };
 
