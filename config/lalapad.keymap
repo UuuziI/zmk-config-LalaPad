@@ -218,7 +218,7 @@
 &trans  &kp PIPE         &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp GRAVE   &kp N7        &kp N8             &kp N9        &kp EQUAL  &trans
 &trans  &kp SQT          &kp SQT               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE          &kp COMMA   &kp NUMBER_4  &kp N5             &kp NUMBER_6  &trans     &trans
 &trans  &kp EXCLAMATION  &kp QUESTION          &kp SEMICOLON         &kp COLON              &kp UNDERSCORE     &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3  &trans     &trans
-&trans  &trans           &trans                &trans                &trans                 &kp C_MUTE         &trans      &kp DELETE    &mt LEFT_SHIFT N0  &trans        &trans     &trans
+&trans  &trans           &trans                &trans                &trans                 &kp K_MUTE2        &trans      &kp DELETE    &mt LEFT_SHIFT N0  &trans        &trans     &trans
                          &trans                &trans                &trans                 &trans             &trans      &trans        &trans             &trans
             >;
         };
