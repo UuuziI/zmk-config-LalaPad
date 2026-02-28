@@ -29,3 +29,10 @@
 &glidepoint_listener_L {
     status = "okay";
 };
+{
+    aliases {
+        led-red = &rgbled0;
+        led-green = &rgbled0;
+        led-blue = &rgbled0;
+    };
+};
